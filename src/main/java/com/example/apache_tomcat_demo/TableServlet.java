@@ -21,6 +21,7 @@ public class TableServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter output = response.getWriter();
 
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("table.html");
         try {
             int num = Integer.parseInt(input);
             output.println("<h3> Table for " + num + ": </h3>");
