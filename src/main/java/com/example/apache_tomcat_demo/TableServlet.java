@@ -28,7 +28,7 @@ public class TableServlet extends HttpServlet {
                 output.printf("%d X %d = %d <br>", num, i, num * i);
             }
         } catch (NumberFormatException e) {
-            throw new RuntimeException(e);
+            output.println("<h3>Invalid Input. Only integers are allowed! </h3>");
         }
         output.close();
     }
