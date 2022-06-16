@@ -19,5 +19,6 @@ public class TableServlet extends HttpServlet {
         for(int  i  = 1; i <= 10; i++) {
             output.printf("%d X %d = %d <br>", num, i, num * i);
         }
+        output.close();
     }
 }
