@@ -21,10 +21,14 @@ public class TableServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter output = response.getWriter();
 
-        int num = Integer.parseInt(input);
-        output.println("<h3> Table for " + num + ": </h3>");
-        for(int  i  = 1; i <= 10; i++) {
-            output.printf("%d X %d = %d <br>", num, i, num * i);
+        try {
+            int num = Integer.parseInt(input);
+            output.println("<h3> Table for " + num + ": </h3>");
+            for(int  i  = 1; i <= 10; i++) {
+                output.printf("%d X %d = %d <br>", num, i, num * i);
+            }
+        } catch (NumberFormatException e) {
+            throw new RuntimeException(e);
         }
         output.close();
     }
