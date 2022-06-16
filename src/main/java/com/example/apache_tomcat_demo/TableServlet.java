@@ -13,7 +13,7 @@ public class TableServlet extends HttpServlet {
         String input = request.getParameter("num");
 
         if (input == null) {
-
+            response.sendRedirect("table.html");
         }
 
         int num = Integer.parseInt(input);
