@@ -7,4 +7,9 @@
         <servlet-name>s1</servlet-name>
         <servlet-class>com.example.apache_tomcat_demo.HelloServlet</servlet-class>
     </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
 </web-app>
