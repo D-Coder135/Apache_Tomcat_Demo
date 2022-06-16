@@ -11,6 +11,11 @@ public class TableServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String input = request.getParameter("num");
+
+        if (input == null) {
+
+        }
+
         int num = Integer.parseInt(input);
 
         response.setContentType("text/html");
