@@ -16,6 +16,7 @@ public class TableServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter output = response.getWriter();
 
+        output.println("<h3> Table for " + num + ": </h3>");
         for(int  i  = 1; i <= 10; i++) {
             output.printf("%d X %d = %d <br>", num, i, num * i);
         }
