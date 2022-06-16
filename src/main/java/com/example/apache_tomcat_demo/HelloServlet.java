@@ -7,5 +7,7 @@
 
 package com.example.apache_tomcat_demo;
 
-public class HelloServlet {
+import javax.servlet.http.HttpServlet;
+
+public class HelloServlet extends HttpServlet {
 }
