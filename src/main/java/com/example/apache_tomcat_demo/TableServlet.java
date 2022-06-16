@@ -15,5 +15,9 @@ public class TableServlet extends HttpServlet {
 
         response.setContentType("text/html");
         PrintWriter output = response.getWriter();
+
+        for(int  i  = 1; i <= 10; i++) {
+
+        }
     }
 }
