@@ -9,6 +9,6 @@ import java.io.IOException;
 public class TableServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        String input = request.getParameter("num");
     }
 }
