@@ -23,6 +23,7 @@ public class TableServlet extends HttpServlet {
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("table.html");
         requestDispatcher.include(request, response);
+
         try {
             int num = Integer.parseInt(input);
             output.println("<h3> Table for " + num + ": </h3>");
