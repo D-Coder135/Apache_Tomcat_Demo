@@ -14,6 +14,7 @@ public class TableServlet extends HttpServlet {
 
         if (input == null) {
             response.sendRedirect("table.html");
+            return;
         }
 
         int num = Integer.parseInt(input);
