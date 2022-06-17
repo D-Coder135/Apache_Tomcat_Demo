@@ -22,6 +22,9 @@ public class ViewNamesServlet extends HttpServlet {
             output.println("<h3>There are no names in your friend list.</h3>");
         } else {
             output.println("<h3>These are your friends: </h3>");
+            for (String name : names) {
+
+            }
         }
     }
 }
