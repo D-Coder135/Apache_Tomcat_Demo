@@ -12,6 +12,8 @@ public class PrintResultServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("./calculator.html");
+
         Object obj = request.getAttribute("result");
         if (obj != null) {
             double result = Double.parseDouble(obj.toString());
