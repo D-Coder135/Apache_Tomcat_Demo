@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "SimpleCalculator", value = "/SimpleCalculator")
+@WebServlet(name = "SimpleCalculator", value = "/simple-calculator")
 public class SimpleCalculator extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -36,7 +36,7 @@ public class SimpleCalculator extends HttpServlet {
             RequestDispatcher rd = request.getRequestDispatcher("print-result");
             rd.forward(request, response);
         } catch (Exception e) {
-
+            response.sendRedirect("./calculator.html");
         }
     }
 
