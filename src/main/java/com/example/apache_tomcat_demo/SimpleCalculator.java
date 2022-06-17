@@ -21,6 +21,9 @@ public class SimpleCalculator extends HttpServlet {
         try {
             double d1 = Double.parseDouble(input1);
             double d2 = Double.parseDouble(input2);
+
+            double result = 0;
+
         } catch (Exception e) {
 
         }
