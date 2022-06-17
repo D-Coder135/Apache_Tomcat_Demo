@@ -32,6 +32,7 @@ public class SimpleCalculator extends HttpServlet {
                 default:
                     throw new Exception("Invalid Operator");
             }
+            request.setAttribute("result", result);
             RequestDispatcher rd = request.getRequestDispatcher("print-result");
             rd.forward(request, response);
         } catch (Exception e) {
