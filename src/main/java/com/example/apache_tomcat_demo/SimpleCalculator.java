@@ -15,7 +15,7 @@ public class SimpleCalculator extends HttpServlet {
 
         if (input1 == null || input2 == null || output == null) {
             response.sendRedirect("./calculator.html");
-
+            return;
         }
     }
 
