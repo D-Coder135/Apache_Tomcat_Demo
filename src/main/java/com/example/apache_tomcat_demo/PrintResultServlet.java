@@ -4,6 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet(name = "print-result", value = "/print-result")
 public class PrintResultServlet extends HttpServlet {
@@ -11,6 +12,7 @@ public class PrintResultServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html");
+        PrintWriter output = response.getWriter();
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("./calculator.html");
         requestDispatcher.include(request, response);
