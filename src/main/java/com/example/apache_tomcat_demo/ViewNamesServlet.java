@@ -4,6 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "view-names", value = "/view-names")
 public class ViewNamesServlet extends HttpServlet {
@@ -11,5 +12,6 @@ public class ViewNamesServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         HttpSession session = request.getSession();
+        List<String> names = (List<String>) session.getAttribute("nameList");
     }
 }
