@@ -19,7 +19,7 @@ public class ViewNamesServlet extends HttpServlet {
         List<String> names = (List<String>) session.getAttribute("nameList");
 
         if (names == null || names.size() == 0) {
-
+            output.println("<h3>There are no names in your friend list.</h3>");
         }
     }
 }
