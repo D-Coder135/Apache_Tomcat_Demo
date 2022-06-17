@@ -4,6 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +29,7 @@ public class AddNameServlet extends HttpServlet {
         names.add(friendName);
 
         response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
 
     }
 }
