@@ -12,6 +12,11 @@ public class SimpleCalculator extends HttpServlet {
         String input1 = request.getParameter("num1");
         String input2 = request.getParameter("num2");
         String output = request.getParameter("operator");
+
+        if (input1 == null || input2 == null || output == null) {
+            response.sendRedirect("./calculator.html");
+
+        }
     }
 
 
