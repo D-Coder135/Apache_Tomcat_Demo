@@ -23,6 +23,7 @@ public class AddNameServlet extends HttpServlet {
 
         if (names == null) {
             names = new ArrayList<>();
+            names.add(friendName);
         }
     }
 }
