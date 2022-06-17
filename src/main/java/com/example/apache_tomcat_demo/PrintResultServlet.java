@@ -20,6 +20,7 @@ public class PrintResultServlet extends HttpServlet {
         Object obj = request.getAttribute("result");
         if (obj != null) {
             double result = Double.parseDouble(obj.toString());
+            output.println("<p>Result of " + request.getParameter("operator") + " operator is " + result);
         }
     }
 }
