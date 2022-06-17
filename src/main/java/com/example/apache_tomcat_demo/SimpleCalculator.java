@@ -29,6 +29,8 @@ public class SimpleCalculator extends HttpServlet {
                 case "Subtract": result = d1 - d2; break;
                 case "Multiply": result = d1 * d2; break;
                 case "Divide": result = d1 / d2; break;
+                default:
+                    throw new Exception("Invalid Operator");
             }
         } catch (Exception e) {
 
