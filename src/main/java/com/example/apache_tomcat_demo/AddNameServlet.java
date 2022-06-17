@@ -13,6 +13,7 @@ public class AddNameServlet extends HttpServlet {
         String friendName = request.getParameter("friend_name");
         if (friendName == null || friendName.trim().length() == 0) {
             response.sendRedirect("./add-name.html");
+            return;
         }
     }
 }
