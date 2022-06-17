@@ -33,6 +33,7 @@ public class AddNameServlet extends HttpServlet {
 
         request.getRequestDispatcher("add-name.html").include(request, response);
         out.println("<h3>" + friendName + " added to your friend list.</h3>");
+        out.close();
 
     }
 }
