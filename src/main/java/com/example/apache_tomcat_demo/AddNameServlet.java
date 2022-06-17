@@ -25,6 +25,9 @@ public class AddNameServlet extends HttpServlet {
             names = new ArrayList<>();
             names.add(friendName);
             session.setAttribute("nameList", names);
+        } else {
+
         }
+
     }
 }
