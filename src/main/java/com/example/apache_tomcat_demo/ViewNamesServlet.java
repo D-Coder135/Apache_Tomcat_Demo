@@ -26,6 +26,7 @@ public class ViewNamesServlet extends HttpServlet {
             for (String name : names) {
                 output.println("<li>" + name + "</li>");
             }
+            output.println("</ul>");
         }
     }
 }
