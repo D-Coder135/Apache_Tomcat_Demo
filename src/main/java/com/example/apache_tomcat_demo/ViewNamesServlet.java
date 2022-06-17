@@ -11,6 +11,8 @@ public class ViewNamesServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        response.setContentType("text/html");
+
         HttpSession session = request.getSession();
         List<String> names = (List<String>) session.getAttribute("nameList");
 
