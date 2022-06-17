@@ -6,7 +6,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 @WebServlet(name = "SimpleCalculator", value = "/simple-calculator")
-public class SimpleCalculator extends HttpServlet {
+public class SimpleCalculatorServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String input1 = request.getParameter("num1");
