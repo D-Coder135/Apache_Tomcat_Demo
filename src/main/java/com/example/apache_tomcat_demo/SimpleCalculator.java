@@ -24,6 +24,9 @@ public class SimpleCalculator extends HttpServlet {
 
             double result = 0;
 
+            switch (output) {
+
+            }
         } catch (Exception e) {
 
         }
