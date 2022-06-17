@@ -28,5 +28,6 @@ public class ViewNamesServlet extends HttpServlet {
             }
             output.println("</ul>");
         }
+        output.close();
     }
 }
