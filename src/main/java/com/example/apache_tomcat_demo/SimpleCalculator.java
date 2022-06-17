@@ -26,6 +26,9 @@ public class SimpleCalculator extends HttpServlet {
 
             switch (output) {
                 case "Add": result = d1 + d2; break;
+                case "Subtract": result = d1 - d2; break;
+                case "Multiply": result = d1 * d2; break;
+                case "Divide": result = d1 / d2; break;
             }
         } catch (Exception e) {
 
