@@ -13,5 +13,9 @@ public class ViewNamesServlet extends HttpServlet {
 
         HttpSession session = request.getSession();
         List<String> names = (List<String>) session.getAttribute("nameList");
+
+        if (names == null || names.size() == 0) {
+
+        }
     }
 }
