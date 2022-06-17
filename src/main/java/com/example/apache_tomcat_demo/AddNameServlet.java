@@ -26,7 +26,7 @@ public class AddNameServlet extends HttpServlet {
             names.add(friendName);
             session.setAttribute("nameList", names);
         } else {
-
+            names.add(friendName);
         }
 
     }
