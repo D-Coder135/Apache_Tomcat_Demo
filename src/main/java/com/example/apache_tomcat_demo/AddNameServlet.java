@@ -27,5 +27,7 @@ public class AddNameServlet extends HttpServlet {
         }
         names.add(friendName);
 
+        response.setContentType("text/html");
+
     }
 }
