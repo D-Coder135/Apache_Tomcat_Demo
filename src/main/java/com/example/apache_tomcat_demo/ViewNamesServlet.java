@@ -23,7 +23,7 @@ public class ViewNamesServlet extends HttpServlet {
         } else {
             output.println("<h3>These are your friends: </h3>");
             for (String name : names) {
-
+                output.println("<li>" + name + "</li>");
             }
         }
     }
