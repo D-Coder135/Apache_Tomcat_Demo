@@ -15,5 +15,7 @@ public class AddNameServlet extends HttpServlet {
             response.sendRedirect("./add-name.html");
             return;
         }
+
+        HttpSession session = request.getSession();
     }
 }
