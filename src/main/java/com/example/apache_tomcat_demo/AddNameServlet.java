@@ -31,5 +31,7 @@ public class AddNameServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
+        request.getRequestDispatcher("add-name.html").include(request, response);
+
     }
 }
