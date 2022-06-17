@@ -11,5 +11,8 @@ public class AddNameServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String friendName = request.getParameter("friend_name");
+        if (friendName == null || friendName.trim().length() == 0) {
+
+        }
     }
 }
