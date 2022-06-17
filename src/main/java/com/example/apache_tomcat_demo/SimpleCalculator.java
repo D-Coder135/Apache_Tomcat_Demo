@@ -17,6 +17,12 @@ public class SimpleCalculator extends HttpServlet {
             response.sendRedirect("./calculator.html");
             return;
         }
+
+        try {
+
+        } catch (Exception e) {
+
+        }
     }
 
 
