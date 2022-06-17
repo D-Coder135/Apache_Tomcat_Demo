@@ -13,6 +13,7 @@ public class PrintResultServlet extends HttpServlet {
         response.setContentType("text/html");
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("./calculator.html");
+        requestDispatcher.include(request, response);
 
         Object obj = request.getAttribute("result");
         if (obj != null) {
