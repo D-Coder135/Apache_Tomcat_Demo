@@ -4,6 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "add-name", value = "/add-name")
 public class AddNameServlet extends HttpServlet {
@@ -17,5 +18,6 @@ public class AddNameServlet extends HttpServlet {
         }
 
         HttpSession session = request.getSession();
+        List<String> names = (List<String>) session.getAttribute("nameList");
     }
 }
