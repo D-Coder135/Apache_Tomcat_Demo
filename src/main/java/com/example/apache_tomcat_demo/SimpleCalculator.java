@@ -25,7 +25,7 @@ public class SimpleCalculator extends HttpServlet {
             double result = 0;
 
             switch (output) {
-
+                case "Add": result = d1 + d2; break;
             }
         } catch (Exception e) {
 
