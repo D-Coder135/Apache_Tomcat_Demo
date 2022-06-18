@@ -34,6 +34,7 @@ public class ViewNamesServlet extends HttpServlet {
         List<String> contextNames = (List<String>) context.getAttribute("nameList");
         if (contextNames != null) {
             output.println("<h3> Friend Names Added By All Users: </h3>");
+            output.println("<ul>");
         }
         output.close();
     }
