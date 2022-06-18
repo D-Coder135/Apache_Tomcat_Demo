@@ -16,7 +16,9 @@
 <p>Powered By JSP.</p>
 
 <table border="1">
+    <thead>
 
+    </thead>
 </table>
 </body>
 </html>
