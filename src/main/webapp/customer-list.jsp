@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>Customer List</h1>
+<hr>
 </body>
 </html>
