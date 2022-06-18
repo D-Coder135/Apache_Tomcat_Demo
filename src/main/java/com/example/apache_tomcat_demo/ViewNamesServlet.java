@@ -38,6 +38,7 @@ public class ViewNamesServlet extends HttpServlet {
             for (String contextName : contextNames) {
                 output.println("<li>" + contextName + "</li>");
             }
+            output.println("</ul>");
         }
         output.close();
     }
