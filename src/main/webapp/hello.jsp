@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>Hello, JSP!</h1>
+<hr>
 </body>
 </html>
