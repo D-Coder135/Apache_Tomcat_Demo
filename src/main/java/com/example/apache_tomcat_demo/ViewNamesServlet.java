@@ -16,7 +16,6 @@ public class ViewNamesServlet extends HttpServlet {
         PrintWriter output = response.getWriter();
         request.getRequestDispatcher("add-name.html").include(request, response);
 
-
         HttpSession session = request.getSession();
         List<String> names = (List<String>) session.getAttribute("nameList");
 
@@ -30,6 +29,8 @@ public class ViewNamesServlet extends HttpServlet {
             }
             output.println("</ul>");
         }
+
+        ServletContext context = getServletContext();
         output.close();
     }
 }
