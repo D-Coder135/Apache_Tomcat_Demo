@@ -11,6 +11,10 @@
     public void jpsInit() {
 
     }
+
+    public void jspDestroy() {
+
+    }
 %>
 
 <html>
