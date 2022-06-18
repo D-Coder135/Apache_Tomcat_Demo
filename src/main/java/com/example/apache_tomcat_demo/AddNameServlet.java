@@ -20,6 +20,9 @@ public class AddNameServlet extends HttpServlet {
         }
 
         ServletContext context = getServletContext();
+        List<String> contextNames = (List<String>) context.getAttribute("nameList");
+
+
         HttpSession session = request.getSession();
         List<String> names = (List<String>) session.getAttribute("nameList");
 
