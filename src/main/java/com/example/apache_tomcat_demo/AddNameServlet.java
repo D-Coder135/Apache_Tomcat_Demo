@@ -23,6 +23,7 @@ public class AddNameServlet extends HttpServlet {
         List<String> contextNames = (List<String>) context.getAttribute("nameList");
         if (contextNames == null) {
             contextNames = new ArrayList<>();
+            context.setAttribute("nameList", contextNames);
         }
 
 
