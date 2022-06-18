@@ -18,7 +18,7 @@
 <form action="">
     Enter Your Name:
     <input type="text" name="your_name">
-    <button></button>
+    <button>Submit</button>
 </form>
 </body>
 </html>
