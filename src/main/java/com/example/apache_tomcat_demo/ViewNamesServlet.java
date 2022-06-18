@@ -36,7 +36,7 @@ public class ViewNamesServlet extends HttpServlet {
             output.println("<h3> Friend Names Added By All Users: </h3>");
             output.println("<ul>");
             for (String contextName : contextNames) {
-
+                output.println("<li>" + contextName + "</li>");
             }
         }
         output.close();
