@@ -23,6 +23,9 @@
 
 <%
 String name = request.getParameter("your_name");
+    if (name != null) {
+
+    }
 %>
 
 </body>
