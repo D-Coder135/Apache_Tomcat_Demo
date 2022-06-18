@@ -25,6 +25,7 @@ public class AddNameServlet extends HttpServlet {
             contextNames = new ArrayList<>();
             context.setAttribute("nameList", contextNames);
         }
+        contextNames.add(friendName);
 
 
         HttpSession session = request.getSession();
