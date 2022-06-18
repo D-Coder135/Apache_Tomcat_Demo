@@ -14,5 +14,9 @@
 <h1>Customer List</h1>
 <hr>
 <p>Powered By JSP.</p>
+
+<table border="1">
+
+</table>
 </body>
 </html>
