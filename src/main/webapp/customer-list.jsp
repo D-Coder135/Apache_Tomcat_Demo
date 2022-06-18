@@ -18,7 +18,11 @@
 <table border="1">
     <thead>
     <tr>
-
+        <th>ID</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Email ID</th>
+        <th>Phone</th>
     </tr>
     </thead>
 </table>
