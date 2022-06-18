@@ -22,7 +22,7 @@
 </form>
 
 <%
-
+String name = request.getParameter("your_name");
 %>
 
 </body>
