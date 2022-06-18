@@ -17,6 +17,7 @@
 
 <form action="">
     Enter Your Name:
+    <input type="text" name="your_name">
 </form>
 </body>
 </html>
