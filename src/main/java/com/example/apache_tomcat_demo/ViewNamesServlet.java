@@ -31,6 +31,7 @@ public class ViewNamesServlet extends HttpServlet {
         }
 
         ServletContext context = getServletContext();
+        List<String> contextNames = (List<String>) context.getAttribute("nameList");
         output.close();
     }
 }
