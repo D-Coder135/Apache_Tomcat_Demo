@@ -30,6 +30,7 @@ public class DateTag extends TagSupport {
                 out.println(new Date().toString());
             } else {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+                out.println(simpleDateFormat.format(new Date()));
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
