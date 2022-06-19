@@ -8,5 +8,5 @@
 package com.example.apache_tomcat_demo;
 import javax.servlet.jsp.tagext.TagSupport;
 
-public class DateTag {
+public class DateTag extends TagSupport {
 }
