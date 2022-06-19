@@ -41,6 +41,7 @@ public class TableTag extends BodyTagSupport {
                 }
                 out.println("</tr>");
             }
+            out.println("</tbody>");
             out.println("</table>");
         } catch (Exception ex) {
 
