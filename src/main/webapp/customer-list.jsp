@@ -24,7 +24,7 @@
 
     public void jspDestroy() {
         try {
-
+            connection.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
