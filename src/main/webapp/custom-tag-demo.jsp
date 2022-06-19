@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%@taglib uri="my-custom-tag-library" prefix="de_coder135" %>
+
 <html>
 <head>
     <title>Custom Action/Tag Demo.</title>
@@ -16,6 +17,6 @@
     <h1>Custom Tag/Action Demo.</h1>
     <hr>
 
-    <date />
+    <de_coder135:date />
 </body>
 </html>
