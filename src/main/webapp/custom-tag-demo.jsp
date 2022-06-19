@@ -23,7 +23,11 @@
     <de_coder135:date pattern="yyyy-MM-dd hh:mm:ss"/><br>
 
     <de_coder135:table>
-
+        id, name, email, city
+        1, Devansh, devansh123@gmail.com, Bengaluru
+        2, Akanksha, akanksha123@gmail.com, Varanasi
+        3, Harshit, hardixit@gmail.com, Kanpur
+        4, Ashu, ashuoddey@gmail.com, Varanasi
     </de_coder135:table>
 </body>
 </html>
