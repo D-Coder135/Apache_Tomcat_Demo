@@ -18,7 +18,7 @@
     <hr>
 
     <de_coder135:date /><br>
-    <de_coder135:date/><br>
+    <de_coder135:date pattern="d/M/yyyy"/><br>
     <de_coder135:date /><br>
     <de_coder135:date /><br>
 </body>
