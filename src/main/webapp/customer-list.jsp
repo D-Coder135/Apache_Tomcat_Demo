@@ -58,6 +58,11 @@
         try {
             PreparedStatement statement = connection.prepareStatement("select * from customers");
             ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                %>
+    <%
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
