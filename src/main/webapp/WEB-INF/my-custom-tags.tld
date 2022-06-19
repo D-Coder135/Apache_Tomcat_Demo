@@ -17,6 +17,7 @@
         
         <attribute>
             <name>pattern</name>
+            <required>false</required>
         </attribute>
     </tag>
 
