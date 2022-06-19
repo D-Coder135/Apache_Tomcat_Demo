@@ -6,6 +6,8 @@
     File: custom-tag-demo
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%@taglib uri="my-custom-tag-library" prefix="de_coder135" %>
 <html>
 <head>
     <title>Custom Action/Tag Demo.</title>
