@@ -1,5 +1,6 @@
 <%@ page import="java.sql.Connection" %>
-<%@ page import="java.sql.DriverManager" %><%--
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.PreparedStatement" %><%--
      Created by IntelliJ IDEA.
     Author: Devansh Shukla (D-Coder135)
     Date: 18-06-2022/06/2022
@@ -54,7 +55,7 @@
     <tbody>
     <%
         try {
-
+            PreparedStatement statement = connection.prepareStatement("select * from customers");
         } catch (Exception e) {
             e.printStackTrace();
         }
