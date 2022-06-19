@@ -52,7 +52,9 @@
     </thead>
 
     <tbody>
+    <%
 
+    %>
     </tbody>
 
 </table>
