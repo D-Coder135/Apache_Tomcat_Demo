@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.sql.Connection" %><%--
      Created by IntelliJ IDEA.
     Author: Devansh Shukla (D-Coder135)
     Date: 18-06-2022/06/2022
@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%!
+    Connection connection;
     public void jpsInit() {
 
     }
