@@ -33,7 +33,9 @@ public class TableTag extends BodyTagSupport {
             out.println("</thead>");
 
             out.println("<tbody>");
-
+            for (int i = 1; i < rows.length; i++) {
+                
+            }
             out.println("</table>");
         } catch (Exception ex) {
 
