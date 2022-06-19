@@ -25,7 +25,9 @@ public class DateTag extends TagSupport {
 
         JspWriter out = pageContext.getOut();
         try {
-            out.println(new Date().toString());
+            if (pattern == null) {
+                out.println(new Date().toString());
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
