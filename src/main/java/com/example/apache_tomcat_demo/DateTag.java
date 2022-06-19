@@ -10,6 +10,7 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateTag extends TagSupport {
@@ -27,6 +28,8 @@ public class DateTag extends TagSupport {
         try {
             if (pattern == null) {
                 out.println(new Date().toString());
+            } else {
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
