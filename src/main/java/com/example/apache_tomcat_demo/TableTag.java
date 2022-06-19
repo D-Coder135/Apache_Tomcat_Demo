@@ -25,6 +25,8 @@ public class TableTag extends BodyTagSupport {
             out.println("<table border = '1'>");
             out.println("<thead>");
             out.println("<tr>");
+            String[] values = rows[0].split(",");
+
             out.println("</tr>");
             out.println("</thead>");
             out.println("</table>");
