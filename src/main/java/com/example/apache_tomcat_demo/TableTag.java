@@ -7,5 +7,7 @@
 
 package com.example.apache_tomcat_demo;
 
-public class TableTag {
+import javax.servlet.jsp.tagext.BodyTagSupport;
+
+public class TableTag extends BodyTagSupport {
 }
