@@ -1,4 +1,5 @@
-<%@ page import="java.sql.Connection" %><%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %><%--
      Created by IntelliJ IDEA.
     Author: Devansh Shukla (D-Coder135)
     Date: 18-06-2022/06/2022
@@ -15,6 +16,7 @@
             String url = "jdbc:h2:tcp://localhost/~/training";
             String user = "devansh";
             String password = "secret";
+            connection = DriverManager.getConnection(url, user, password);
         } catch (Exception e) {
 
         }
