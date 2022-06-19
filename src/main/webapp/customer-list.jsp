@@ -10,7 +10,11 @@
 <%!
     Connection connection;
     public void jpsInit() {
+        try {
 
+        } catch (Exception e) {
+
+        }
     }
 
     public void jspDestroy() {
