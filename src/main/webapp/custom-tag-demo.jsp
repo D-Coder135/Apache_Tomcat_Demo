@@ -19,7 +19,7 @@
 
     <de_coder135:date /><br>
     <de_coder135:date pattern="d/M/yyyy"/><br>
-    <de_coder135:date /><br>
-    <de_coder135:date /><br>
+    <de_coder135:date pattern="EEEE MMMM d, yyyy"/><br>
+    <de_coder135:date pattern="yyyy-MM-dd hh:mm:ss"/><br>
 </body>
 </html>
