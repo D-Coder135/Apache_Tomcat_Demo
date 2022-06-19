@@ -23,5 +23,6 @@
 
     <tag>
         <name>table</name>
+        <tag-class>com.example.apache_tomcat_demo.TableTag</tag-class>
     </tag>
 </taglib>
