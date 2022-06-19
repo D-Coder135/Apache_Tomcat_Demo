@@ -23,6 +23,7 @@ public class TableTag extends BodyTagSupport {
         try {
             String[] rows = content.split("\n");
             out.println("<table border = '1'>");
+            out.println("</table>");
         } catch (Exception ex) {
 
         }
