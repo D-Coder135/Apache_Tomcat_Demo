@@ -12,6 +12,7 @@
     public void jpsInit() {
         try {
             Class.forName("org.h2.Driver");
+            String url = "jdbc:h2:tcp://localhost/~/training";
         } catch (Exception e) {
 
         }
