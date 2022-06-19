@@ -18,7 +18,7 @@
             String password = "secret";
             connection = DriverManager.getConnection(url, user, password);
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
