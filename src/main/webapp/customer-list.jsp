@@ -62,11 +62,11 @@
             while (resultSet.next()) {
                 %>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><%= resultSet.getInt("id") %></td>
+        <td><%= resultSet.getString("name") %></td>
+        <td><%= resultSet.getString("city") %></td>
+        <td><%= resultSet.getString("email") %></td>
+        <td><%= resultSet.getString("phone") %></td>
     </tr>
     <%
             }
