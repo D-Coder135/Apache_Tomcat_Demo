@@ -21,7 +21,7 @@ public class TableTag extends BodyTagSupport {
         String content = getBodyContent().getString().trim();
 
         try {
-
+            String[] rows = content.split("\n");
         } catch (Exception ex) {
 
         }
