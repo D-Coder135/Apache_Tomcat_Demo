@@ -60,7 +60,7 @@
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()) {
-                %>
+    %>
     <tr>
         <td><%= resultSet.getInt("id") %></td>
         <td><%= resultSet.getString("name") %></td>
@@ -70,6 +70,8 @@
     </tr>
     <%
             }
+            resultSet.close();
+            statement.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
