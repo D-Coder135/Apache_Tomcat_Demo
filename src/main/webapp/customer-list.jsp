@@ -23,7 +23,11 @@
     }
 
     public void jspDestroy() {
+        try {
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 %>
 
