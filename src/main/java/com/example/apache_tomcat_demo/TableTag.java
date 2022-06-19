@@ -18,7 +18,7 @@ public class TableTag extends BodyTagSupport {
 
         JspWriter out = getPreviousOut();
 
-        String content = getBodyContent().getString();
+        String content = getBodyContent().getString().trim();
 
         return super.doAfterBody();
     }
