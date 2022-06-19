@@ -11,7 +11,7 @@
     Connection connection;
     public void jpsInit() {
         try {
-
+            Class.forName("org.h2.Driver");
         } catch (Exception e) {
 
         }
