@@ -61,6 +61,9 @@
 
             while (resultSet.next()) {
                 %>
+    <tr>
+
+    </tr>
     <%
             }
         } catch (Exception e) {
