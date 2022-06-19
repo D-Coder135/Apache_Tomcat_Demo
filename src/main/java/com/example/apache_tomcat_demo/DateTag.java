@@ -9,6 +9,7 @@ package com.example.apache_tomcat_demo;
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
+import java.io.IOException;
 import java.util.Date;
 
 public class DateTag extends TagSupport {
@@ -17,7 +18,11 @@ public class DateTag extends TagSupport {
     public int doStartTag() throws JspException {
 
         JspWriter out = pageContext.getOut();
-        out.println(new Date().toString());
+        try {
+            out.println(new Date().toString());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         return super.doStartTag();
     }
