@@ -13,6 +13,8 @@
         try {
             Class.forName("org.h2.Driver");
             String url = "jdbc:h2:tcp://localhost/~/training";
+            String user = "devansh";
+            String password = "secret";
         } catch (Exception e) {
 
         }
