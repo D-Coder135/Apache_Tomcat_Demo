@@ -34,7 +34,12 @@ public class TableTag extends BodyTagSupport {
 
             out.println("<tbody>");
             for (int i = 1; i < rows.length; i++) {
-                
+                out.println("<tr>");
+                values = rows[i].split(",");
+                for (String value : values) {
+                    out.println("<td>" + value + "</td>");
+                }
+                out.println("</tr>");
             }
             out.println("</table>");
         } catch (Exception ex) {
