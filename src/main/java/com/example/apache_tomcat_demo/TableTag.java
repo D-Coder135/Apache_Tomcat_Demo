@@ -20,6 +20,12 @@ public class TableTag extends BodyTagSupport {
 
         String content = getBodyContent().getString().trim();
 
+        try {
+
+        } catch (Exception ex) {
+
+        }
+
         return super.doAfterBody();
     }
 }
