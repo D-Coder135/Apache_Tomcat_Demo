@@ -15,6 +15,11 @@ import java.util.Date;
 public class DateTag extends TagSupport {
 
     private String pattern = null;
+
+    public void setPattern(String pattern) {
+        this.pattern = pattern;
+    }
+
     @Override
     public int doStartTag() throws JspException {
 
