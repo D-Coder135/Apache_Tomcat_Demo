@@ -62,7 +62,11 @@
             while (resultSet.next()) {
                 %>
     <tr>
-
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <%
             }
