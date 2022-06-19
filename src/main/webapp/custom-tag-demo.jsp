@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>Custom Tag/Action Demo.</h1>
+    <hr>
 </body>
 </html>
