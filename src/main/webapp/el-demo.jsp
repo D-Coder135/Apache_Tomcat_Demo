@@ -24,5 +24,9 @@
 <h3>Hello ${requestScope.name}</h3>
 <h3>Hello ${requestScope.name == null ? "Friend" : requestScope.name}</h3>
 
+<form action="">
+
+</form>
+
 </body>
 </html>
