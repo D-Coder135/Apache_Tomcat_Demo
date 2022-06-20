@@ -16,5 +16,9 @@
 <hr>
 <p>MVC demo powered by servlets, jsp and mybatis</p>
 
+<table border="1">
+
+</table>
+
 </body>
 </html>
