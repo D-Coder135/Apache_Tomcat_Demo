@@ -8,4 +8,5 @@
 package com.example.apache_tomcat_demo.entity;
 
 public class Customer {
+    private Integer id;
 }
