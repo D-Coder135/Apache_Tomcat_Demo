@@ -21,7 +21,7 @@
 %>
 
 <h3>Hello ${name}</h3>
-<h3>Hello ${name}</h3>
+<h3>Hello ${requestScope.name}</h3>
 <h3>Hello ${name}</h3>
 
 </body>
