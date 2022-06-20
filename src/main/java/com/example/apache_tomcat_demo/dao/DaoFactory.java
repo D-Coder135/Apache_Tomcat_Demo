@@ -7,5 +7,5 @@
 
 package com.example.apache_tomcat_demo.dao;
 
-public class DaoFactory {
+public final class DaoFactory {
 }
