@@ -5,7 +5,7 @@
  *   File: Address
  */
 
-package com.example.apache_tomcat_demo;
+package com.example.apache_tomcat_demo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
