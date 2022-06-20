@@ -17,6 +17,7 @@
 <%
     String name = "Devansh Kumar Shukla";
     pageContext.setAttribute("name", name);
+    request.setAttribute("name", "Akanksha Singh");
 %>
 
 <h3>Hello ${name}</h3>
