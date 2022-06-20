@@ -16,6 +16,7 @@
 
 <%
     String name = "Devansh Kumar Shukla";
+    pageContext.setAttribute("name", name);
 %>
 
 </body>
