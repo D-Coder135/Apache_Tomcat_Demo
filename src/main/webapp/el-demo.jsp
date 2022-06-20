@@ -26,7 +26,7 @@
 %>
 
 <div>
-
+Name: ${person.name}
 </div>
 
 <h3>Hello ${name}</h3>
