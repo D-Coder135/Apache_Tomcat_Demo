@@ -19,7 +19,11 @@
 <table border="1">
     <thead>
     <tr>
-
+        <th>Id</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Email</th>
+        <th>Phone</th>
     </tr>
     </thead>
 </table>
