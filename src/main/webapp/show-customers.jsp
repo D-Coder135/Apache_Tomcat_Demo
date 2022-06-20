@@ -29,7 +29,11 @@
         <th>Phone</th>
     </tr>
     </thead>
-    <tbody></tbody>
+    <tbody>
+    <c:forEach items="${requestScope.customers}" var="customer">
+
+    </c:forEach>
+    </tbody>
 </table>
 
 </body>
