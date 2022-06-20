@@ -27,7 +27,7 @@
 
 <div>
     Name: ${person.name} <br>
-    City: ${person.address.city}
+    City: ${person.address.city} <br>
 </div>
 
 <h3>Hello ${name}</h3>
