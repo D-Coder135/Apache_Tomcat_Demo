@@ -8,4 +8,7 @@
 package com.example.apache_tomcat_demo.dao;
 
 public final class DaoFactory {
+
+    private DaoFactory() {
+    }
 }
