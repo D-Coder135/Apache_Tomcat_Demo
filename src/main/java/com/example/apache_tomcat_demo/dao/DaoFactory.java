@@ -11,4 +11,8 @@ public final class DaoFactory {
 
     private DaoFactory() {
     }
+
+    public static CustomerDao getCustomerDao() {
+
+    }
 }
