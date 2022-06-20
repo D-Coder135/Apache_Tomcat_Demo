@@ -32,7 +32,11 @@
     <tbody>
     <c:forEach items="${requestScope.customers}" var="customer">
         <tr>
-
+            <td>${customer.id}</td>
+            <td>${customer.name}</td>
+            <td>${customer.city}</td>
+            <td>${customer.email}</td>
+            <td>${customer.phone}</td>
         </tr>
     </c:forEach>
     </tbody>
