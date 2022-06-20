@@ -16,6 +16,6 @@
     </environments>
 
     <mappers>
-        <mapper class="co.devansh.dao.CustomerDao" />
+        <mapper class="com.example.apache_tomcat_demo.dao.CustomerDao" />
     </mappers>
 </configuration>
