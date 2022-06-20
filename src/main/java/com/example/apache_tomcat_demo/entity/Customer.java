@@ -9,4 +9,8 @@ package com.example.apache_tomcat_demo.entity;
 
 public class Customer {
     private Integer id;
+    private String name;
+    private String email;
+    private String phone;
+    private String city;
 }
