@@ -25,7 +25,7 @@
 <h3>Hello ${requestScope.name == null ? "Friend" : requestScope.name}</h3>
 
 <form action="">
-
+    <input type="text" placeholder="Enter a name: " name="your_name">
 </form>
 
 </body>
