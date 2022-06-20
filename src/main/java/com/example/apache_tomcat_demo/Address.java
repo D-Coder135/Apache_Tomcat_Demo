@@ -8,10 +8,13 @@
 package com.example.apache_tomcat_demo;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+
 
 public class Address {
     String city;
