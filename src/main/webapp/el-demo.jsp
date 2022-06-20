@@ -28,6 +28,7 @@
 <div>
     Name: ${person.name} <br>
     City: ${person.address.city} <br>
+    State: ${person.address.state} <br>
 </div>
 
 <h3>Hello ${name}</h3>
