@@ -1,4 +1,5 @@
-<%@ page import="com.example.apache_tomcat_demo.entity.Address" %><%--
+<%@ page import="com.example.apache_tomcat_demo.entity.Address" %>
+<%@ page import="com.example.apache_tomcat_demo.entity.Person" %><%--
      Created by IntelliJ IDEA.
     Author: Devansh Shukla (D-Coder135)
     Date: 20-06-2022/06/2022
@@ -20,6 +21,7 @@
     request.setAttribute("name", "Akanksha Singh");
 
     Address add = new Address("Bengaluru", "Karnataka");
+    Person p1 = new Person("Devansh Kumar Shukla", add);
 %>
 
 <h3>Hello ${name}</h3>
