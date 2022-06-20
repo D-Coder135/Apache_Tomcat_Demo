@@ -7,9 +7,11 @@
 
 package com.example.apache_tomcat_demo.entity;
 
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
+@Getter
 public class Customer {
     private Integer id;
     private String name;
