@@ -14,7 +14,7 @@
 
 <h1>Customer List</h1>
 <hr>
-
+<p>MVC demo powered by servlets, jsp and mybatis</p>
 
 </body>
 </html>
