@@ -7,8 +7,10 @@
 
 package com.example.apache_tomcat_demo;
 
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
+@AllArgsConstructor
 public class Address {
 }
