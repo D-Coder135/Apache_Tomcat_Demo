@@ -11,6 +11,6 @@
     <title>EL-Demo</title>
 </head>
 <body>
-<h1></h1>
+<h1>EL-Demo</h1>
 </body>
 </html>
