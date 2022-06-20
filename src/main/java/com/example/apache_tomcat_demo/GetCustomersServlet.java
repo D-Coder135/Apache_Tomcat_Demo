@@ -18,5 +18,6 @@ public class GetCustomersServlet extends HttpServlet {
         CustomerDao dao = DaoFactory.getCustomerDao();
         List<Customer> list = dao.getAllCustomers();
 
+        request.setAttribute("customers", list);
     }
 }
