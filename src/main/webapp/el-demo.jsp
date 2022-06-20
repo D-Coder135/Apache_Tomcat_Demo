@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.example.apache_tomcat_demo.entity.Address" %><%--
      Created by IntelliJ IDEA.
     Author: Devansh Shukla (D-Coder135)
     Date: 20-06-2022/06/2022
@@ -18,6 +18,8 @@
     String name = "Devansh Kumar Shukla";
     pageContext.setAttribute("name", name);
     request.setAttribute("name", "Akanksha Singh");
+
+    Address add = new Address("Bengaluru", "Karnataka");
 %>
 
 <h3>Hello ${name}</h3>
