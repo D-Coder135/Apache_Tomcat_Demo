@@ -1,5 +1,8 @@
 package com.example.apache_tomcat_demo;
 
+import com.example.apache_tomcat_demo.dao.CustomerDao;
+import com.example.apache_tomcat_demo.dao.DaoFactory;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -10,7 +13,7 @@ public class GetCustomersServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        CustomerDao dao = DaoFactory.getCustomerDao();
+
     }
-
-
 }
