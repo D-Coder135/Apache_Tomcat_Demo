@@ -31,7 +31,9 @@
     </thead>
     <tbody>
     <c:forEach items="${requestScope.customers}" var="customer">
+        <tr>
 
+        </tr>
     </c:forEach>
     </tbody>
 </table>
