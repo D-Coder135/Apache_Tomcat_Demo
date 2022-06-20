@@ -7,6 +7,15 @@
 
 package com.example.apache_tomcat_demo.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 public class Person {
     private String name;
     private Address address;
