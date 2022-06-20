@@ -19,5 +19,6 @@ public class GetCustomersServlet extends HttpServlet {
         List<Customer> list = dao.getAllCustomers();
 
         request.setAttribute("customers", list);
+        request.getRequestDispatcher("/show-customers.jsp").forward(request, response);
     }
 }
