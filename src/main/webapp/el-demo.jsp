@@ -22,6 +22,7 @@
 
     Address add = new Address("Bengaluru", "Karnataka");
     Person p1 = new Person("Devansh Kumar Shukla", add);
+    request.setAttribute("person", p1);
 %>
 
 <h3>Hello ${name}</h3>
