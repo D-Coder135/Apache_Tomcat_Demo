@@ -28,7 +28,7 @@
     <input type="text" placeholder="Enter a name: " name="your_name">
 </form>
 
-<h3></h3>
+<h3>Hello, ${param.your_name == null ? "Friend" : param.your_name}</h3>
 
 </body>
 </html>
